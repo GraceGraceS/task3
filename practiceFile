@@ -1,0 +1,4 @@
+const practiceFile=[273.15];for(let i=0;i<practiceFile.length;i++){console.log(practiceFile[i]);}
+practiceFile.push(42);for(let i=0;i<practiceFile.length;i++){console.log(practiceFile[i]);}
+practiceFile.push('hello');for(let i=0;i<practiceFile.length;i++){console.log(practiceFile[i]);}
+practiceFile.push(false,-4.6,'87');for(let i=0;i<practiceFile.length;i++){console.log(practiceFile[i]);}
