@@ -1,0 +1,8 @@
+const cargoHold=['oxygen tanks', 'space suits', 'parrot', 'instruction manua
+l', 'meal packs', 'slinky', 'security blanket'];for(let i=0;i<cargoHold.length;i++){console.log(cargoHold[i]);}
+cargoHold[5]='space tether';for(let i=0;i<cargoHold.length;i++){console.log(cargoHold[i]);}
+console.log('REMOVED ELEMENT:'+cargoHold.pop());for(let i=0;i<cargoHold.length;i++){console.log(cargoHold[i]);}
+console.log('REMOVED FIRST ELEMENT:'+cargoHold.pop());for(let i=0;i<cargoHold.length;i++){console.log(cargoHold[i]);}
+cargoHold.unshift(1138);cargoHold.push('20 meter);for(let i=0;i<cargoHold.length;i++){console.log(cargoHold[i]);}
+const cargoHold=[1138, 'space suits', 'parrot', 'instruction manua
+l', 'meal packs', 'space tether', 'security blanket'];for(let i=0;i<cargoHold.length;i++){console.log(cargoHold[i]);}console.log(cargoHold.length);
