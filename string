@@ -1,0 +1,3 @@
+let str = 'In space, no one can hear you code.';console.log(str.split());console.log(str.split('e'));console.log(str.split(' '));console.log(str.split(''));
+let arr = ['B', 'n', 'n', 5];console.log(arr.join());console.log(arr.join('a'));console.log(arr.join(' '));console.log(arr.join(''));
+let s1='The benefit, cadet';let arr=s1.split(',');let s2='water,spacesuits,food,plasmasword,batteries';let arr1=s2.split(',');arr1=s2.sort();console.log(arr.concat(arr1));
