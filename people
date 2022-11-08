@@ -1,0 +1,11 @@
+let people = ['Greg', 'Mary', ';Devon', 'James'];for(let i=0;i<people.length;i++){console.log(people[i])};
+people.shift();
+people.pop();
+people.unshift('Matt');console.log(people);
+people.push('Grace');console.log(people);
+let a=people.indexOf('Mary');for(let i=0;i<a;i++){console.log(people[i])};
+people.slice(2);
+people.indexOf('Mary');
+people.indexOf('Foo');
+let people = ['Greg', 'Mary', ';Devon', 'James'];people.splice(2,1,'Elizabeth','Artie');console.log(people);
+let withBob=people.concat('Bob');console.log(withBob);
